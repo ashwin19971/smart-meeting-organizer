@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/smart-meeting-organizer/static/css/main.8ff4a307.chunk.css",
+    "main.js": "/smart-meeting-organizer/static/js/main.1d51645c.chunk.js",
+    "main.js.map": "/smart-meeting-organizer/static/js/main.1d51645c.chunk.js.map",
+    "runtime-main.js": "/smart-meeting-organizer/static/js/runtime-main.8f666d60.js",
+    "runtime-main.js.map": "/smart-meeting-organizer/static/js/runtime-main.8f666d60.js.map",
+    "static/js/2.c29d17b1.chunk.js": "/smart-meeting-organizer/static/js/2.c29d17b1.chunk.js",
+    "static/js/2.c29d17b1.chunk.js.map": "/smart-meeting-organizer/static/js/2.c29d17b1.chunk.js.map",
+    "index.html": "/smart-meeting-organizer/index.html",
+    "precache-manifest.6a859965148787e8d97c77735eb8d794.js": "/smart-meeting-organizer/precache-manifest.6a859965148787e8d97c77735eb8d794.js",
+    "service-worker.js": "/smart-meeting-organizer/service-worker.js",
+    "static/css/main.8ff4a307.chunk.css.map": "/smart-meeting-organizer/static/css/main.8ff4a307.chunk.css.map",
+    "static/js/2.c29d17b1.chunk.js.LICENSE.txt": "/smart-meeting-organizer/static/js/2.c29d17b1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f666d60.js",
+    "static/js/2.c29d17b1.chunk.js",
+    "static/css/main.8ff4a307.chunk.css",
+    "static/js/main.1d51645c.chunk.js"
+  ]
+}
