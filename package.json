@@ -1,0 +1,59 @@
+{
+  "name": "smart-meeting-organizer",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ashwin19971.github.io/smart-meeting-organizer",
+  "dependencies": {
+    "@apollo/client": "^3.3.19",
+    "axios": "^0.19.2",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-modal": "^3.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwin19971/smart-meeting-organizer.git"
+  },
+  "author": "Ashwin Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwin19971/smart-meeting-organizer/issues"
+  },
+  "description": "Smart meeting organizer",
+  "keywords": [
+    "\"Html",
+    "Css",
+    "Js",
+    "React.js\""
+  ]
+}

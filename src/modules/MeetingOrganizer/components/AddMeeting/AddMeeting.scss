@@ -1,0 +1,83 @@
+.add-meeting-wrapper {
+  text-align: center;
+  padding-bottom: 10px;
+  h2 {
+    color: rgb(94, 39, 201);
+  }
+}
+
+.add-meeting-line-item {
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  label {
+    font-size: 14px;
+  }
+  input,
+  select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}
+
+#booking-date {
+  margin-left: 75px;
+}
+
+#start-time {
+  margin-left: 40px;
+}
+
+#end-time {
+  margin-left: 45px;
+}
+
+#booking-title {
+  margin-left: 78px;
+}
+
+#building {
+  margin-left: 10px;
+}
+
+.rooms-wrapper {
+  padding: 10px 20px;
+  h3 {
+    text-align: center;
+    color: #5e27c9;
+    margin: 10px 0 20px;
+  }
+  button {
+    margin: 10px auto 10px;
+    display: block;
+  }
+}
+
+.rooms-info-block {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: all 0.3s;
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    &:first-of-type {
+      font-size: 16px;
+      font-weight: bold;
+      color: #5e27c9;
+    }
+  }
+  &:hover {
+    border: 1px solid #5e27c9;
+    border-radius: 8px;    
+  }
+}
+
+.selected-room {
+  border: 1px solid #5e27c9;
+  border-radius: 8px;
+  cursor: default;
+}
