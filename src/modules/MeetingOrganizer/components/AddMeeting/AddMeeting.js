@@ -156,7 +156,7 @@ export const AddMeeting = ({ isModalOpen, toggleModal, buildings, isBuildingLoad
                 <Button
                   onClick={handleScheduleMeeting}
                   disabled={!selectedRoomId}
-                  value="Schedule Meeting"
+                  value="SCHEDULE MEETING"
                 />
               }
             </div>
@@ -179,4 +179,4 @@ AddMeeting.defaultProps = {
   isBuildingInfoLoading: true
 }
 
-export default AddMeeting;
+export default React.memo(AddMeeting);

@@ -33,7 +33,11 @@ export const getTodayMeetings = meetings => {
     } = meeting;
     const meetingStartTime = parseDate(date, startTime);
     const meetingEndTime = parseDate(date, endTime);
-    return getTimeInBetween(meetingStartTime, todayStartTime, todayEndTime) || getTimeInBetween(meetingEndTime, todayStartTime, todayEndTime);
+    return getTimeInBetween(meetingStartTime, todayStartTime, todayEndTime) || 
+    getTimeInBetween(meetingEndTime, todayStartTime, todayEndTime) ||
+    getTimeInBetween(todayStartTime, meetingStartTime, meetingEndTime) || 
+    getTimeInBetween(todayEndTime, meetingStartTime, meetingEndTime)
+    ;
   });
 
   return todayMeetings;
@@ -85,7 +89,9 @@ export const getFreeMeetingRooms = (rooms, bookingDate, bStartTime, bEndTime) =>
       const meetingEndTime = parseDate(meetings[i].date, meetings[i].endTime);
       if (
         getTimeInBetween(bookingStartTime, meetingStartTime, meetingEndTime) ||
-        getTimeInBetween(bookingEndTime, meetingStartTime, meetingEndTime)
+        getTimeInBetween(bookingEndTime, meetingStartTime, meetingEndTime) ||
+        getTimeInBetween(meetingStartTime, bookingStartTime, bookingEndTime) ||
+        getTimeInBetween(meetingEndTime, bookingStartTime, bookingEndTime)
       ) {
         return false;
       }
